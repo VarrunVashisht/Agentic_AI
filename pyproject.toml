@@ -1,0 +1,20 @@
+[project]
+name = "Agentic_AI"
+version = "0.1.0"
+description = "This venv use for agentic ai course study"
+readme = "README.md"
+authors = [
+    { name = "VarrunVashisht", email = "varunavashisht@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.3",
+    "langgraph>=1.2.14",
+]
+
+[project.scripts]
+agentic-ai = "agentic_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
