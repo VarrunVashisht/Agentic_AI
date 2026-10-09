@@ -12,6 +12,8 @@ wheels/
 # env
 .env
 
+#API
+test_api.py
 
 
 
